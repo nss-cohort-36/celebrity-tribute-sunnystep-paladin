@@ -1,0 +1,28 @@
+.center {
+    width: 100%;
+    min-width: 100px;
+    
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    
+}
+section {
+    width: 50%;
+}
+div {
+    border: 1px solid black;
+border-radius: 4px;
+padding: 7px;
+margin: 10px;
+background-color: rgba(255,255,255,.5);
+font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
