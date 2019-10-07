@@ -2,9 +2,23 @@ main li {
     list-style: none;
 }
 
+.bio__info li {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.bio__family {
+    font-size: 1.5em;
+}
+
+.bio__info, .bio__family {
+    min-width: 400px;
+}
 .bio__info, .family-member {
     border: 2px solid black;
     border-radius: 8px;
+    background: rgba(255,255,255,0.6);
+    padding: 10px;
 }
 .bio__family img {
     display: block;
@@ -13,11 +27,23 @@ main li {
 }
 
 .family-member {
-    /* border: 2px solid black; */
     margin: 20px;
     width: 300px;
+    font-weight: 600;
 }
 
 .bio__info span {
     font-weight: 600;
 }
+
+section {
+    margin: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+  } 
