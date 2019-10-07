@@ -8,6 +8,10 @@ display: flex;
 
 }
 
+footer {
+background-color: black;
+}
+
 .navbar, footer > ul{
     display: flex;
     flex-flow: row nowrap;
