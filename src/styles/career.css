@@ -1,0 +1,14 @@
+.main-images {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+}
