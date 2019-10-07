@@ -1,6 +1,12 @@
-body{
+
+body {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(../assets/crinkledpaper.jpg);
+    background-image: url(../assets/crinkledpaper.jpg)
+}
+
+.body {
+    background-color: rgb(255, 255, 255, .4);
+    background-blend-mode: luminosity;
 }
 
 header,footer {
