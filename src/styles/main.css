@@ -27,6 +27,7 @@ nav {
     align-content: center;
     /* height: 91px; */
     width: 100%;
+    min-width: 500px;
     background-color: black;
     color: white;
 }
