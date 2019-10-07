@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../assets/crinkledpaper.jpg);
+}
+
+header,footer {
+display: flex;
+
+}
+
+footer {
+background-color: black;
+}
+
+.navbar, footer > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    /* height: 91px; */
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.header li {
+    border: 3px;
+    /* justify-content: space-around; */
+}
+.logo {
+    width: 91px;
+}
+
+a {
+border-radius: 7px;
+    text-decoration: none;
+padding: 17px;
+}
+
+a:hover {
+    background-color: grey;
+    color: white;
+}
+
+a:link,a:visited {
+color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+  }
