@@ -1,0 +1,23 @@
+main li {
+    list-style: none;
+}
+
+.bio__info, .family-member {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.bio__family img {
+    display: block;
+    width: 200px;
+    padding: 10px;
+}
+
+.family-member {
+    /* border: 2px solid black; */
+    margin: 20px;
+    width: 300px;
+}
+
+.bio__info span {
+    font-weight: 600;
+}
