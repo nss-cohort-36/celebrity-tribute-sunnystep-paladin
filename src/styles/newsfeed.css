@@ -3,30 +3,32 @@
     min-width: 100px;
     
 }
-
+/* 
 article {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+flex-direction: column;
     flex-wrap: wrap;
     
-}
+    
+} */
 
 h2 {
     margin: 8px;
 }
 
-section {
-    width: 50%;
-}
+
+
 div {
     border: 1px solid black;
 border-radius: 4px;
 padding: 7px;
-margin: 10px;
+margin: auto;
+margin-top: 11px;
+margin-bottom: 3px;
 background-color: rgba(255,255,255,.5);
 font-size: 18px;
-
+width: 50%;
 }
 
 ul {
@@ -39,4 +41,8 @@ ul {
 
  .smallt {
      font-size: 9px;
+ }
+
+ .bold {
+     font-weight: bold;
  }
