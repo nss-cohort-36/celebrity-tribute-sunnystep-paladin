@@ -5,7 +5,7 @@
 
 .main-body {
     padding-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
@@ -19,9 +19,18 @@ h2 {
 .collabPeople {
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
 }
 
 ul {
     list-style: none;
+}
+
+a {
+    padding: 4px;
+}
+
+footer > ul {
+    margin: 15px;
 }
