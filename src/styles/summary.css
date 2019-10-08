@@ -34,3 +34,7 @@ a {
 footer > ul {
     margin: 15px;
 }
+
+body {
+    min-width: 600px;
+}
