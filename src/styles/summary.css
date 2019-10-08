@@ -1,0 +1,27 @@
+.center {
+    background-color: black;
+    color: white;
+}
+
+.main-body {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.collab {
+    padding-bottom: 30px;
+}
+
+.collabPeople {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
