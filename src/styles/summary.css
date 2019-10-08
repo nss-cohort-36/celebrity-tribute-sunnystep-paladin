@@ -26,3 +26,11 @@ h2 {
 ul {
     list-style: none;
 }
+
+a {
+    padding: 4px;
+}
+
+footer > ul {
+    margin: 15px;
+}
